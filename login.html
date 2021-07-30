@@ -1,20 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html>   
+<html lang="en">   
+<head>  
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-</head>
-<body>
-    <h1>Login</h1>
-    <form action="">
-        <label for="u_name">User Name:</label> <br>
-        <input type="text" name = "u_name", id= "u_name"> <br> 
-        <label for="password">Password: </label> <br>
-        <input type="password" name="pass" id="pass"> <br>
-        <input type="submit" value="Login">
-        <button><a href="signup.html">Sign Up</a></button><br>
-    </form>
-</body>
-</html>
+    <title>Login Page</title> 
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: lemonchiffon;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: black;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    }   
+</style>   
+</head>    
+<body>    
+    <br><center> <h1>PROJECT MANAGER</h1> </center> 
+    <br><div style="text-align:center"><img src="images/welcome.png" alt="Welcome to Project Manager" width="250" height="250">
+    </div>
+    <br><br><center><h2>Login</h2></center>
+    <form>  
+        <div class="container">   
+            <label style="font-size:20px">Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label style="font-size:20px">Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit" style="font-size : 15px">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me <br>  
+            <center>New user? <a href="signup.html" style="font-size : 17px">Sign Up here</a></center>  
+        </div>   
+    </form>     
+</body>     
+</html> 
