@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Manager</title>
+    <style>
+        ul {
+  display: table;
+  margin: 0 auto;
+}
+    </style>
 </head>
-<body>
-    <h1>Project Manager</h1>
+<body style="background-color:powderblue;">
     <div class="Top_section">
-        <p>Welcome, <b> Name </b>!</p>
+        <p style="font-size:300%; text-align:center;">Welcome, <b> Name </b>!</p><br><br>
     </div>
     <div class="main_section">
-        <p> Create a New Project</p>
+        <ul>
+        <li style="font-size:200%">Create a New Project</li>
+        <div style="text-align:center">    
         <a href="create.html">
-            <img src="images/create.png" alt="Create Image" width="100" height="100">
+        <img src="images/create.png" alt="Create Image" width="100" height="100">
         </a>
-        <p>Choose an existing Project</p>
+        </div>
+        <br><li style="font-size:200%">Choose an existing Project</li>
+        <div style="text-align:center">
         <a href="exist_projects.html">
             <img src="images/existing.png" alt="Existing Image" width="120" height="100">
         </a>
+        </div></ul>
     </div>
 </body>
 </html>
